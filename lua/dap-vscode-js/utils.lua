@@ -50,7 +50,7 @@ local function file_exists(name)
 end
 
 local function debugger_entrypoint(debugger_path)
-	return M.join_paths(debugger_path, "out/src/vsDebugServer.js")
+	return M.join_paths(debugger_path, "out", "src", "vsDebugServer.js")
 end
 
 ---@param config Settings
